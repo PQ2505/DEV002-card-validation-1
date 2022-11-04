@@ -5,10 +5,54 @@
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <h1 class="titulo1">¡BIENVENID@!</h1>
+      <h2 class="titulo2"> VALIDADOR PARA TARJETAS DE CREDITO <br/> VISA O MASTERCARD</h2>
+    </header>
+    
+    <main>
+      <form>
+        <div class="recuadros">
+          <section class="sectiontarjeta">
+            <div class="tarjeta">
+              <label> NOMBRE</label>
+              <input id="nombreUsuario" type="text"/> <br/>
+              <label > NÚMERO DE TARJETA</label>
+              <input id="numeroTarjeta" type="number"/> <br/>
+              <div class="plastico">
+                <img src="Imagenes/chip.png" class="logo"><br/>
+                <img id="franchise" class="logo"><br/>
+                <br/>
+                <br/>
+                <br/>
+                <label id="numero"> XXXX XXXX XXXX XXXXX</label><br/>
+                <br/>
+                <label id="nombre"> NOMBRE USUARIO</label>
+                <br/>
+              </div>
+              <label id="respuesta"></label> <br/>
+              <br/>
+              <input type="submit" value="LIMPIAR CAMPOS">
+            </div>
+          </section>
+          <section>
+            <h2 class="titulo3"> Ten en cuenta:</h2> 
+            <h2 class="titulo4"> Con este validador estarás segur@ del funcionamiento de tu tarjeta de crédito VISA o MASTERCARD, antes de realizar el pago de tus compras por internet. </h2>
+
+            <h3 class="titulo3">¿Cómo usar el validador?</h3>
+            <h3 class="titulo5"> + Digita tu nombre en el recuadro asignado. <br/>
+              + Digita el numero de tu tarjeta de crédito en el recuadro asignado, con números del 0 al 9 hasta completar los 16 digitos necesarios para validar correctamente, estos los encuentras en la parte del frente de tu tarjeta.<br/>
+              + No digites letras, tampoco dejes espacios en blanco, solo ingresa números.<br/>
+              + El validador automaticamente te dirá si tu tarjeta es VISA o MASTERCARD, además te indicara si es valida o no.
+            </h3>
+          </section>
+        </div>
+      </form>
+
+    </main>
+    <footer>GRACIAS POR USAR ESTE VALIDADOR</footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
