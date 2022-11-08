@@ -1,0 +1,68 @@
+html, body {
+  height: 90%;
+  width: 100%;
+  color: #000000;
+  background-image: url("Imagenes/fondo_paginaweb.jpg");
+  background-size: 1550px 800px;
+  text-align: center;
+}
+.titulo1 {
+    color: #060606;
+    background-color: #b1dbf1;
+    border: 1px solid #060606;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  .titulo2 {
+    color: #060606;
+    background-color: #cde1e9;
+    border: 0px solid #060606;
+    text-align: center;
+  }
+  .titulo3 {
+    color: #060606;
+    background-color: #b1dbf1;
+    border: 0px solid #060606;
+    text-align: center;
+  }
+  .titulo4 {
+    color: #060606;
+    background-color: #91c1c9;
+    border: 0px solid #060606;
+    text-align: center;
+  }
+  .titulo5 {
+    color: #060606;
+    background-color: #91c1c9;
+    border: 0px solid #060606;
+    text-align: left;
+  }
+  .recuadros {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .tarjeta {
+    background-color: #f4f4f3;
+    border: 5px solid #b1dbf1;
+  }
+  .plastico {
+    background-color: #f9c48b;
+    border: 5px solid #000000;
+    box-sizing: content-box;
+    width: 350px;
+    height: 190px;
+    background-size: cover;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 0 auto;
+  }
+  .sectiontarjeta{
+    height: 100%;
+    width: 100%;
+  }
+  .logo{
+    height: 20%;
+    width: 20%;
+    float: left;
+  }
